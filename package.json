@@ -1,0 +1,25 @@
+{
+  "name": "Caillou",
+  "version": "1.0.0",
+  "description": "- App to monitor websites and send notifications when they go offline",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThiagoNelsi/Caillou.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThiagoNelsi/Caillou/issues"
+  },
+  "homepage": "https://github.com/ThiagoNelsi/Caillou#readme",
+  "devDependencies": {
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {}
+}
