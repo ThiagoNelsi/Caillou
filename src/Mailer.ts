@@ -67,6 +67,7 @@ export class Mailer {
     static async createMailer({ host, port, auth }: ICreateMailer) {
         const mailer = new Mailer(host, port, auth);
         if (await mailer.verify()) return mailer;
+        else throw new Error('Unable to create mailer');
     }
 
 }
